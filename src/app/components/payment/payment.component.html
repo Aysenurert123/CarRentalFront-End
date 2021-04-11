@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="opacity: 0.75;">
   
   <div class="col-md-6">
     <div class="card rounded-0">
@@ -89,9 +89,9 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" >
     <div class="col">
-       <table class="table" >
+       <table class="table" style="color:	rgb(255, 255, 0)" >
          <tbody>
            <thead>
             Registered Cards</thead>
@@ -105,7 +105,7 @@
              <th></th>
 
             </tr>
-           <tr *ngFor="let card of cards"  >
+           <tr *ngFor="let card of cards" >
              <td>{{card.id}}</td>
              <td>{{card.cardNumber}}</td>
              <td>{{card.cardOnName}}</td>
