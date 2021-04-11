@@ -8,6 +8,18 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Images
 
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/1.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/2.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/3.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/4.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/5.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/6.png?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/7.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/8.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/9.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/10.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/11.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/RentACarProject/blob/master/readmeImages/12.PNG?raw=true)
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
