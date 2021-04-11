@@ -5,8 +5,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/1.PNG?raw=true)
 # Car List:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/2.PNG?raw=true)
-# Rental List:
+# Filter button:
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/14.PNG?raw=true)
+# Car Detail:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/3.PNG?raw=true)
+## Clicking the payment button:
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/15.PNG?raw=true)
+## If the date before today's date is selected:
+
 # Payment:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/4.PNG?raw=true)
 # Add Car:
