@@ -32,14 +32,14 @@
           </li>
 
           <li *ngIf="isAuth()" class="nav-item">
-            <button class="btn btn-danger" (click)="logout()" style="color:rgb(255, 255, 255);" routerLink="/cars">
+            <button class="btn btn-danger" (click)="logout()" routerLink="/cars">
               <span class="bi-box-arrow-in-right me-2"></span>
               <strong>Log Out</strong>
             </button>
           </li>
           <li *ngIf="!isAuth()" class="nav-item">
-            <button class="btn btn-success me-3" routerLink="/login"><strong>Sign In</strong></button>
-            <button class="btn btn-primary" routerLink="/register"><strong>
+            <button class="btn btn-info me-3" routerLink="/login"><strong>Sign In</strong></button>
+            <button class="btn btn-success" routerLink="/register"><strong>
               Sign Up</strong></button>
           </li>
         </ul>

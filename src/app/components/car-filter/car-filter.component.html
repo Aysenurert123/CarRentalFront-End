@@ -2,14 +2,14 @@
 <div class="container rounded" style="border:1px solid black">
  <div class="row mb-2">
   <div class="col col-4">
-   <h3 style ="color: #E4D3C2;" >Brands</h3>
+   <h3 style ="color: #14272F;" >Brands</h3>
       <select [(ngModel)]="brandFilter"  class="form-select" aria-label="Default select example"> 
           <option *ngFor="let brand of brands" [value]="brand.brandId" selected="{{getCurrentBrand(brand.brandId)}}">{{brand.brandName}}</option>
         </select>
   </div>
 
   <div class="col col-4">
-    <h3 style="color: #E4D3C2;">Colors</h3>
+    <h3 style="color: #14272F;">Colors</h3>
       <select [(ngModel)]="colorFilter" class="form-select" aria-label="Default select example">
           <option *ngFor="let color of colors" [value]="color.colorId" [selected]="getCurrentColor(color.colorId)"  >{{color.colorName}}</option>
         </select>
@@ -18,11 +18,11 @@
 
   <div class="col col-2">
       <br><br>
-      <a (click)="getFilter(brandFilter,colorFilter)" class="w3-button w3-grey w3-round-large w3-large">Filter</a>
+      <a (click)="getFilter(brandFilter,colorFilter)" class="w3-button w3-round-large w3-large" style="background-color: rgb(108, 224, 108);">Filter</a>
     
       </div> 
       <div class="col col-2"><br><br>
-        <a routerLink="/cars" class="w3-button w3-grey w3-round-large w3-large">Clean</a>
+        <a routerLink="/cars" class="w3-button w3 w3-round-large  w3-large" style="background-color: 	rgb(224, 108, 108);">Clean</a>
       </div>
 </div>
 </div>
