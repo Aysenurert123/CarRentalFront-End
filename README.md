@@ -9,23 +9,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/14.PNG?raw=true)
 # Car Detail:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/3.PNG?raw=true)
-## Clicking the payment button:
-![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/15.PNG?raw=true)
-## If the date before today's date is selected:
-
-# Payment:
+## Clicking the rent now button:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/4.PNG?raw=true)
+## If the date before today's date is selected:
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/15.PNG?raw=true)
+# Redirection to the payment page:
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/16.PNG?raw=true)
 # Add Car:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/5.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/17.PNG?raw=true)
 # Added Car:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/6.png?raw=true)
 # Update Brand:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/7.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/18.PNG?raw=true)
 # Brand List:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/8.PNG?raw=true)
 
 # Update Color:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/11.PNG?raw=true)
+![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/19.PNG?raw=true)
 # Color List:
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/9.PNG?raw=true)
 # Customer List:
