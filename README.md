@@ -17,7 +17,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/7.PNG?raw=true)
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/8.PNG?raw=true)
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/9.PNG?raw=true)
-![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/10.PNG?raw=true)
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/11.PNG?raw=true)
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/12.PNG?raw=true)
 ![alt text](https://github.com/Aysenurert123/CarRentalFront-End/blob/master/readmeImages/13.PNG?raw=true)
