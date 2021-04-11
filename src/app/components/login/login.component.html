@@ -1,0 +1,30 @@
+<div class="content">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Sign In</h5>
+            </div>
+
+            <div class="card-body">
+                <form [formGroup]="loginForm" (ngSubmit)="login()">
+                        <div class="mb-3">
+                            <label  for="email">E-mail</label>
+                            <div class="form-group">
+                                <input appTextStyle type="email" id="email" formControlName="email" class="form-control" placeholder="Email"/>
+                            </div></div>
+
+                        <div class="mb-3">
+                                <label for="password">Password</label>
+                                <div class="form-group">
+                                    <input appTextStyle type="password" id="password" formControlName="password" class="form-control" placeholder="Password"/>
+                                </div></div>
+                </form>
+            </div>     
+            <div class="mb-3">
+                <label for="colorAdd"></label>
+                <div class="form-group">
+                    <button  (click)="login()"  class="btn btn-success">Sign In</button>
+                </div></div>
+        </div>
+    </div>
+</div>

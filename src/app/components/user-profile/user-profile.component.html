@@ -1,0 +1,95 @@
+<div class="content">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h3><strong> User Update </strong></h3>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="userUpdateForm">
+
+            <div class="mb-3">
+              <label for="firstName">First Name</label>
+              <div class="form-group">
+                <input type="text" id="firstName" formControlName="firstName" class="form-control"
+                  placeholder="First Name" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="lastName">Last Name</label>
+              <div class="form-group">
+                <input type="text" id="lastName" formControlName="lastName" class="form-control"
+                  placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email">Email</label>
+              <div class="form-group">
+                <input type="text" id="email" formControlName="email" class="form-control" placeholder="Email" />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="userUpdate"></label>
+              <button (click)="userUpdate()" class="btn btn-warning">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h3><strong>Customer Update</strong></h3>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="customerUpdateForm">
+
+            <div class="mb-3">
+              <label for="companyName">Company Name</label>
+              <div class="form-group">
+                <input type="text" id="companyName" formControlName="companyName" class="form-control"
+                  placeholder="Company Name" />
+              </div>
+            </div>
+            <label for="customerFindexPoint">Findex Point</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" formControlName="customerFindexPoint" id="customerFindexPoint"
+                placeholder="Findex Puanı" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" (click)="calcFindexPoint()" type="button"
+                id="button-addon2">
+                Calculate Findex Points</button>
+            </div>
+            <button class="btn btn-info" (click)="customerUpdate()">Update</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h3><strong>Password Update</strong></h3>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="passwordChangeForm">
+          <div class="mb-3">
+            <label for="oldPassword">Old Password</label>
+            <div class="form-group">
+              <input type="password" id="oldPassword" formControlName="oldPassword" class="form-control"
+                placeholder="Old Password" />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="newPassword">New Password</label>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control" formControlName="newPassword" id="newPassword"
+                placeholder="New Password">
+            </div>
+          </div>
+          <button class="btn btn-info" (click)="passwordChange()">Update Password</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

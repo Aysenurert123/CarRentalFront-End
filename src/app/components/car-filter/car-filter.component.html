@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="container rounded" style="border:1px solid black">
+ <div class="row mb-2">
+  <div class="col col-4">
+   <h3 style ="color: #E4D3C2;" >Brands</h3>
+      <select [(ngModel)]="brandFilter"  class="form-select" aria-label="Default select example"> 
+          <option *ngFor="let brand of brands" [value]="brand.brandId" selected="{{getCurrentBrand(brand.brandId)}}">{{brand.brandName}}</option>
+        </select>
+  </div>
+
+  <div class="col col-4">
+    <h3 style="color: #E4D3C2;">Colors</h3>
+      <select [(ngModel)]="colorFilter" class="form-select" aria-label="Default select example">
+          <option *ngFor="let color of colors" [value]="color.colorId" [selected]="getCurrentColor(color.colorId)"  >{{color.colorName}}</option>
+        </select>
+  </div>
+ 
+
+  <div class="col col-2">
+      <br><br>
+      <a (click)="getFilter(brandFilter,colorFilter)" class="w3-button w3-grey w3-round-large w3-large">Filter</a>
+    
+      </div> 
+      <div class="col col-2"><br><br>
+        <a routerLink="/cars" class="w3-button w3-grey w3-round-large w3-large">Clean</a>
+      </div>
+</div>
+</div>

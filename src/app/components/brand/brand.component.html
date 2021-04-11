@@ -1,0 +1,22 @@
+<div *ngIf="dataLoaded == false" class="spinner-border" role="status">
+   <span class="visually-hidden">Loading...</span>
+ </div>
+
+ 
+
+  <div class="mb-3">
+    <label for="filterBrandText" class="form-label">Search Brand</label>
+    <input type="text" [(ngModel)]="filterText" class="form-control" id="filterBrandText"
+     placeholder="Search for a brand">
+  </div>
+  <div *ngIf="filterText" class="alert alert-success">
+  {{filterText}} search
+  </div> 
+  <select class="form-select" size="4" >
+    <option  routerLink="/brands" (click)="resetCurrentBrandId()">Brands</option>
+    <option *ngFor="let brand of brands |brandPipe:filterText"  (click)="setCurrentBrand(brand.brandId)">{{brand.brandName}}</option>
+  </select>
+  <br>
+  <button class="btn btn-warning rounded-0" routerLink="/brands/add">Brand <strong>Add - Update</strong></button>
+
+   

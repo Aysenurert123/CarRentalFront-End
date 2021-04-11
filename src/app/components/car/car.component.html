@@ -1,0 +1,36 @@
+<div *ngIf="dataLoaded==false" class="spinner-border" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<div class="mb-3">
+  <label for="filterText" class="form-label" style="color:#E4D3C2;">Search Car</label>
+  <input type="text" [(ngModel)]="filterText" class="form-control" id="filterText" placeholder="Search Car">
+</div>
+<div *ngIf="filterText" class="alert alert-success">
+  {{filterText}} serach
+</div>
+<div class="row" style="overflow:scroll; height:400px;">
+
+  <div class="card" style="width: 16rem; margin:1rem;opacity: 0.75;" *ngFor="let car of carDetails | filterPipe:filterText"
+    routerLink="/cars/detail/{{ car.carId }}">
+    <img src="https://localhost:44342/{{car.imagePath}}" style="height: 150px;" class="card-img-top" alt="...">
+
+    <div class="card-body">
+      <h5 class="card-title">Brand: <strong>{{car.brandName}}</strong></h5>
+      <p class="card-text">Description: <strong>{{ car.description }}</strong></p>
+    </div>
+    <ul class="list-group list-group-flush" >
+      <li class="list-group-item">Car Name: <strong>{{car.carName}}</strong></li>
+      <li class="list-group-item">Color: <strong>{{car.colorName}}</strong></li>
+      <li class="list-group-item">Model Year: <strong>{{car.modelYear}}</strong></li>
+      <li class="list-group-item">Description: <strong>{{car.description}}</strong></li>
+    </ul>
+    <div class="card-body">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Daily Pirce: <strong>{{car.dailyPrice | currency:'TL'}}</strong></li>
+        <li class="list-group-item">Vat Price: <strong>{{car.dailyPrice | vatAdded:18 | currency:'TL'}}</strong></li>
+        <li class="list-group-item"><Button class="btn btn-warning"
+            routerLink="/cars/update/{{car.carId}}">Update</Button></li>
+      </ul>
+    </div>
+  </div>
+</div>
